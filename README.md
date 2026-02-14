@@ -2,14 +2,15 @@
 This Repo is Residency Day 2: Project Deliverable 2: Project Project Deliverable 3: Classification, Clustering, and Pattern Mining MSCS-634-M20
 
 # Deliverable 3: Clustering and Association Rule Mining
-
-**Course:** MSCS 634 – Big Data & Data Mining  
+  
 **Group Members:**  
 Avijit Saha  
 Pranoj Thapa  
 Sandip KC  
 Bharath Singareddy  
 
+**Course:** Advanced Big Data and Data Mining (MSCS-634-M20)   
+Dr. Satish Penmatsa
 
 **February 14, 2026**
 
