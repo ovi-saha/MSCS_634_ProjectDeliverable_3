@@ -52,6 +52,7 @@ Two datasets were prepared:
 | One-Hot Encoded Dataset | Used for Apriori Association Rule Mining |
 
 ---
+
 # 2. Classification Models:
 # Decision Tree:
 ## Objective
@@ -95,7 +96,53 @@ Two datasets were prepared:
 - Results are reliable for prediction and analysis.
 - The model can support transportation planning decisions.
 
-# 3. Clustering Analysis (K-Means)
+---
+
+# K-Nearest Neighbours
+
+## Objective
+
+- To classify passenger travel data into Low, Medium, and High categories using KNN.
+- To compare KNN performance with other classification models.
+- To analyze travel patterns based on similarity between data points.
+
+## Algorithm Used
+
+- K-Nearest Neighbors (KNN) Classifier.
+- Distance metrics such as Euclidean distance.
+- Cross-validation for selecting the best value of K.
+- Performance evaluation using accuracy, F1-score, confusion matrix, and ROC curve.
+
+## Process
+
+- Collected and cleaned the dataset.
+- Selected important features (Year, Mode, Statistic).
+- Converted categorical variables into numeric form.
+- Normalized/standardized data for fair distance calculation.
+- Split data into training and testing sets.
+- Chose optimal K value using validation.
+- Trained the KNN model.
+- Predicted test data classes.
+- Evaluated model performance.
+
+## Observations
+
+- KNN performed well when K value was properly selected.
+- Model accuracy decreased for very small or very large K values.
+- Sensitive to noise and outliers.
+- Performance depends on data scaling.
+- Medium category had higher misclassification.
+- Requires more computation for large datasets.
+
+## Interpretation
+
+- KNN is simple and easy to understand.
+- Works well when similar patterns exist in data.
+- Proper scaling and K selection are essential.
+- Less suitable for very large datasets.
+- Useful as a comparison model for validation.
+
+# 4. Clustering Analysis (K-Means)
 
 ## Objective
 
