@@ -52,47 +52,68 @@ Two datasets were prepared:
 | One-Hot Encoded Dataset | Used for Apriori Association Rule Mining |
 
 ---
-# Classification Models:
+# 2 Classification Models:
 # Decision Tree:
 ## Objective
 
 To classify passenger travel data into categories (Low, Medium, High).
+
 To analyze travel patterns using machine learning.
+
 To evaluate the performance of the classification model.
 
 ## Algorithm Used
 
 Decision Tree Classifier.
+
 GridSearchCV for hyperparameter tuning.
+
 Evaluation using accuracy, F1-score, confusion matrix, and ROC curve.
 
 ## Process
 
 Collected passenger travel data.
+
 Cleaned and removed missing or invalid values.
+
 Selected important features (Year, Mode, Statistic).
+
 Converted categorical data into numerical form.
+
 Divided data into training and testing sets.
+
 Trained the Decision Tree model.
+
 Tuned model parameters.
+
 Tested and evaluated the model.
+
 Visualized results using plots and tree diagrams.
 
 ## Observations
 
 The model classified High and Low values accurately.
+
 Medium values were harder to predict.
+
 Hyperparameter tuning improved accuracy.
+
 Most errors occurred between neighboring classes.
+
 Year and Mode were important features.
+
 ROC curve showed good classification ability.
 
 ## Interpretation
 
 Decision Tree is effective for analyzing travel data.
+
 The model helps understand travel behavior patterns.
+
 Tuning reduced overfitting and improved performance.
+
 Results are reliable for prediction and analysis.
+
 The model can support transportation planning decisions.
 
 # 3. Clustering Analysis (K-Means)
