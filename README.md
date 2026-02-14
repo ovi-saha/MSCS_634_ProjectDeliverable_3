@@ -140,19 +140,19 @@ Lift values greater than 1 indicated meaningful positive relationships.
 
 The discovered patterns can be applied in several practical contexts:
 
-### 🚦 Transportation Planning
+###  Transportation Planning
 Clustering helps identify usage patterns for infrastructure optimization.
 
-### 🛡 Safety Improvements
+###  Safety Improvements
 Rules linking injury/fatality rates to transportation modes can guide safety policies.
 
-### 🌍 Environmental Strategy
+###  Environmental Strategy
 Emission-related associations support sustainability initiatives.
 
-### 👥 Demographic Analysis
+###  Demographic Analysis
 Patterns involving gender-based transportation usage help create inclusive policies.
 
-### 📊 Operational Optimization
+###  Operational Optimization
 Transportation agencies can use insights to:
 - Forecast demand
 - Allocate resources efficiently
