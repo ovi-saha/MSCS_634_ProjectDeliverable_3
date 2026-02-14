@@ -232,9 +232,115 @@ Two datasets were prepared:
 - Essential for real-world applications.
 
 ---
+# 4. classification model performance using:
+# 4.1. Confusion Matrix
+## Objective
+
+- To analyze correct and incorrect predictions.
+- To understand types of classification errors.
+- To evaluate model reliability.
+
+## Algorithm Used
+
+- Confusion Matrix.
+- TP, TN, FP, FN metrics.
+
+## Process
+
+- Generated predictions from the model.
+- Compared predicted labels with actual labels.
+- Created confusion matrix.
+- Identified TP, TN, FP, FN values.
+
+## Observations
+
+- Most predictions were correctly classified.
+- Some misclassifications were observed.
+- False positives and false negatives were minimal.
+- Class-wise performance was visible.
+
+## Interpretation
+
+- Shows detailed model performance.
+- Helps identify weak classes.
+- Useful for improving model accuracy.
+- Important for error analysis.
+---
 
 ---
-# 4. Clustering Analysis (K-Means)
+
+# 4.2 ROC Curve
+## Objective
+
+- To measure the model’s ability to separate classes.
+- To evaluate performance at different thresholds.
+- To analyze classification quality.
+
+## Algorithm Used
+
+- ROC Curve.
+- AUC (Area Under Curve).
+
+## Process
+
+- Calculated probability scores.
+- Computed True Positive Rate and False Positive Rate.
+- Plotted ROC curve.
+- Calculated AUC value.
+
+## Observations
+
+- ROC curve stayed closer to top-left corner.
+- High AUC value observed.
+- Good class separation achieved.
+- Stable performance across thresholds.
+
+## Interpretation
+
+- Higher AUC means better performance.
+- Shows model’s discrimination ability.
+- Less affected by class imbalance.
+- Useful for model comparison.
+---
+
+---
+
+## 4.3 Accuracy / F1 Score
+## Objective
+
+- To measure overall prediction accuracy.
+- To balance precision and recall.
+- To evaluate model effectiveness.
+
+## Algorithm Used
+
+- Accuracy Score.
+- Precision.
+- Recall.
+- F1 Score.
+
+## Process
+
+- Compared predicted and actual labels.
+- Calculated accuracy value.
+- Computed precision and recall.
+- Calculated F1 score.
+
+## Observations
+
+- Accuracy was reasonably high.
+- F1 score showed balanced performance.
+- Precision and recall were stable.
+- Suitable for dataset characteristics.
+
+## Interpretation
+
+- Accuracy is good for balanced data.
+- F1 score is better for imbalanced data.
+- Combined metrics give reliable evaluation.
+- Helps in selecting best model.
+---
+# 5. Clustering Analysis (K-Means)
 
 ## Objective
 
