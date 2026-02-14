@@ -378,7 +378,7 @@ Clustering helped identify:
 ---
 
 ---
-# 3. Association Rule Mining (Apriori Algorithm)
+# 6. Association Rule Mining (Apriori Algorithm)
 
 ## Objective
 
@@ -425,7 +425,7 @@ Lift values greater than 1 indicated meaningful positive relationships.
 
 ---
 
-# 5. Real-World Applications
+# 7. Real-World Applications
 
 The discovered patterns can be applied in several practical contexts:
 
@@ -449,7 +449,7 @@ Transportation agencies can use insights to:
 
 ---
 
-# 6. Challenges Encountered
+# 8. Challenges Encountered
 
 - High dimensionality after one-hot encoding (2400+ features)
 - Empty rule outputs due to strict thresholds
@@ -461,7 +461,7 @@ Careful preprocessing and parameter tuning were necessary to extract meaningful 
 
 ---
 
-# 7. Key Insights
+# 9. Key Insights
 
 - Unsupervised learning revealed hidden structural patterns.
 - Clustering identified natural groupings in transportation data.
