@@ -197,8 +197,8 @@ Careful preprocessing and parameter tuning were necessary to extract meaningful 
 
 Deliverable 3 successfully applied:
 
-- ✅ K-Means Clustering  
-- ✅ Apriori Association Rule Mining  
+-  K-Means Clustering  
+-  Apriori Association Rule Mining  
 
 The analysis uncovered meaningful hidden patterns within the transportation dataset. These insights demonstrate the effectiveness of unsupervised learning techniques in extracting actionable knowledge from complex real-world data.
 
