@@ -54,7 +54,7 @@ Two datasets were prepared:
 ---
 
 # 2. Classification Models:
-# Decision Tree:
+# 2.1. Decision Tree:
 ## Objective
 
 - To classify passenger travel data into categories (Low, Medium, High).
@@ -98,7 +98,7 @@ Two datasets were prepared:
 
 ---
 
-# K-Nearest Neighbours
+# 2.2. K-Nearest Neighbours
 
 ## Objective
 
