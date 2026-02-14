@@ -142,43 +142,7 @@ Two datasets were prepared:
 - Less suitable for very large datasets.
 - Useful as a comparison model for validation.
 
-# 4. Clustering Analysis (K-Means)
-
-## Objective
-
-To group similar observations into clusters based on feature similarity.
-
-## Algorithm Used
-
-- **K-Means Clustering**
-- Distance Metric: Euclidean Distance
-- Optimal K selected using the **Elbow Method**
-
-## Process
-
-1. Scaled numerical features
-2. Computed inertia values for k = 1 to 9
-3. Plotted Elbow Curve
-4. Selected optimal number of clusters
-5. Trained final K-Means model
-6. Assigned cluster labels to dataset
-
-## Observations
-
-- The Elbow Method identified the optimal number of clusters.
-- Clusters grouped similar transportation-related characteristics.
-- Data segmentation revealed structural similarities within the dataset.
-
-## Interpretation
-
-Clustering helped identify:
-
-- Transportation behavior groupings
-- Similar safety and emission characteristics
-- Natural data segmentation patterns
-
 ---
-
 # 2.3. Naive Bayes:
 
 ## Objective
@@ -223,7 +187,8 @@ Clustering helped identify:
 - Useful for comparison and initial analysis.
 
 ---
-# Hyperparameter Tuning of Decision Tree:
+
+# 3. Hyperparameter Tuning of Decision Tree:
 
 ## Objective
 
@@ -268,6 +233,45 @@ Clustering helped identify:
 
 ---
 
+---
+# 4. Clustering Analysis (K-Means)
+
+## Objective
+
+To group similar observations into clusters based on feature similarity.
+
+## Algorithm Used
+
+- **K-Means Clustering**
+- Distance Metric: Euclidean Distance
+- Optimal K selected using the **Elbow Method**
+
+## Process
+
+1. Scaled numerical features
+2. Computed inertia values for k = 1 to 9
+3. Plotted Elbow Curve
+4. Selected optimal number of clusters
+5. Trained final K-Means model
+6. Assigned cluster labels to dataset
+
+## Observations
+
+- The Elbow Method identified the optimal number of clusters.
+- Clusters grouped similar transportation-related characteristics.
+- Data segmentation revealed structural similarities within the dataset.
+
+## Interpretation
+
+Clustering helped identify:
+
+- Transportation behavior groupings
+- Similar safety and emission characteristics
+- Natural data segmentation patterns
+
+---
+
+---
 # 3. Association Rule Mining (Apriori Algorithm)
 
 ## Objective
