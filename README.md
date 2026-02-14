@@ -11,7 +11,7 @@ Sandip KC
 Bharath Singareddy  
 
 
-**Feruary 14, 2026**
+**February 14, 2026**
 
 
 
@@ -30,7 +30,7 @@ The goal is to extract meaningful insights without using a predefined target var
 
 ---
 
-# 1️⃣ Data Preparation
+# 1. Data Preparation
 
 Before applying unsupervised learning techniques, the dataset was cleaned and transformed.
 
@@ -52,7 +52,7 @@ Two datasets were prepared:
 
 ---
 
-# 2️⃣ Clustering Analysis (K-Means)
+# 3. Clustering Analysis (K-Means)
 
 ## Objective
 
@@ -89,7 +89,7 @@ Clustering helped identify:
 
 ---
 
-# 3️⃣ Association Rule Mining (Apriori Algorithm)
+# 4. Association Rule Mining (Apriori Algorithm)
 
 ## Objective
 
@@ -136,7 +136,7 @@ Lift values greater than 1 indicated meaningful positive relationships.
 
 ---
 
-# 4️⃣ Real-World Applications
+# 5. Real-World Applications
 
 The discovered patterns can be applied in several practical contexts:
 
@@ -160,7 +160,7 @@ Transportation agencies can use insights to:
 
 ---
 
-# 5️⃣ Challenges Encountered
+# 6. Challenges Encountered
 
 - High dimensionality after one-hot encoding (2400+ features)
 - Empty rule outputs due to strict thresholds
@@ -172,7 +172,7 @@ Careful preprocessing and parameter tuning were necessary to extract meaningful 
 
 ---
 
-# 6️⃣ Key Insights
+# 7. Key Insights
 
 - Unsupervised learning revealed hidden structural patterns.
 - Clustering identified natural groupings in transportation data.
