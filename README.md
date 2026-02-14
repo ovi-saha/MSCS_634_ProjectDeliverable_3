@@ -179,7 +179,96 @@ Clustering helped identify:
 
 ---
 
-# 4. Association Rule Mining (Apriori Algorithm)
+# 2.3. Naive Bayes:
+
+## Objective
+
+- To classify passenger travel data into Low, Medium, and High categories using Naive Bayes.
+- To analyze travel patterns based on probability.
+- To compare Naive Bayes performance with other classification models.
+
+## Algorithm Used
+
+- Naive Bayes Classifier (Gaussian Naive Bayes).
+- Based on Bayes’ Theorem with independence assumption.
+- Uses probability distributions for prediction.
+- Performance evaluated using accuracy, F1-score, confusion matrix, and ROC curve.
+
+## Process
+
+- Collected and cleaned the dataset.
+- Selected important features (Year, Mode, Statistic).
+- Converted categorical variables into numeric form.
+- Split data into training and testing sets.
+- Trained the Naive Bayes model.
+- Calculated class probabilities.
+- Predicted class labels.
+- Evaluated model performance.
+
+## Observations
+
+- Fast training and prediction.
+- Works well with large datasets.
+- Performs better with independent features.
+- Less sensitive to missing values.
+- Medium category showed moderate misclassification.
+- Accuracy slightly lower compared to Decision Tree and KNN.
+
+## Interpretation
+
+- Naive Bayes is simple and efficient.
+- Suitable for quick baseline models.
+- Performs well despite strong assumptions.
+- Best used when features are mostly independent.
+- Useful for comparison and initial analysis.
+
+---
+# Hyperparameter Tuning of Decision Tree:
+
+## Objective
+
+- To improve the accuracy of the Decision Tree model.
+- To reduce overfitting and underfitting.
+- To find the best model settings.
+- To increase prediction reliability.
+
+## Algorithm Used
+
+- Decision Tree Classifier.
+- GridSearchCV for hyperparameter tuning.
+- Cross-validation for performance evaluation.
+- Gini Index / Entropy for split quality.
+
+## Process
+
+- Prepared and cleaned the dataset.
+- Selected important features.
+- Split data into training and testing sets.
+- Chose hyperparameters (max_depth, min_samples_split, etc.).
+- Applied GridSearchCV.
+- Trained multiple models.
+- Selected best parameter combination.
+- Tested final model on unseen data.
+
+## Observations
+
+- Tuned model showed higher accuracy.
+- Overfitting was reduced.
+- Tree structure became more balanced.
+- Prediction performance improved.
+- Training time increased slightly.
+
+## Interpretation
+
+- Proper tuning improves model performance.
+- Helps in building stable models.
+- Prevents unnecessary tree growth.
+- Makes predictions more reliable.
+- Essential for real-world applications.
+
+---
+
+# 3. Association Rule Mining (Apriori Algorithm)
 
 ## Objective
 
